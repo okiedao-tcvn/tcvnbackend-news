@@ -56,7 +56,7 @@ async function checkAndSendNews() {
     }, 15000); // 15 giây
 }
 
-sendTelegramMessage("🔥 <b>Tin mới nhất</b>: : https://tradecoinvn.com/newsfeed/newsfeed-detail/bitcoin-dang-lap-lai-chu-ky-nam-2016-chuyen-gia-dat-muc-tieu-350000-usd-cho-btc")
+// sendTelegramMessage("🔥 <b>Tin mới nhất</b>: : https://tradecoinvn.com/newsfeed/newsfeed-detail/bitcoin-dang-lap-lai-chu-ky-nam-2016-chuyen-gia-dat-muc-tieu-350000-usd-cho-btc")
 // Gọi hàm checkAndSendNews để bắt đầu quá trình kiểm tra và gửi thông báo
 checkAndSendNews().catch(error => {
     console.error("Error:", error);
